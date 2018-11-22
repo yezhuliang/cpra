@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="col-md-offset-1 col-md-10">
+            <a href="{{ route('home') }}" id="logo">C-Web</a>
+            <nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ route('help') }}">什么是C-Web？</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

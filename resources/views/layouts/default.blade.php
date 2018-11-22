@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title', 'CWeb') - C语言开发练习网站</title>
+    <title>@yield('title', 'C-Web') | C语言开发练习网站</title>
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-    @yield('content')
-
+    @include('layouts._header')
+    <div class="container">
+        <div class="col-md-offset-1 col-md-10">
+            @yield('content')
+            @include('layouts._footer')
+        </div>
+    </div>
 </body>
 </html>
