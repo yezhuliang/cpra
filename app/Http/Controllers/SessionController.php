@@ -28,4 +28,11 @@ class SessionController extends Controller
             return redirect()->back();
         }
     }
+
+    public function destroy()
+    {
+        Auth::logout();
+        session()->flash('success', '您已成功退出登录！');
+        return redirect('login');
+    }
 }
