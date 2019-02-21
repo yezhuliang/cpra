@@ -10,7 +10,7 @@
             一切，将从这里开始~
         </p>
         <p>
-            <a class="btn btn-lg btn-success" href="#" role="button">登&nbsp;&nbsp;录</a>
+            <a class="btn btn-lg btn-success" href="{{ route('login') }}" role="button">登&nbsp;&nbsp;录</a>
         </p>
         <div id="a1">没有账号？<a href="{{ route('signup') }}">现在注册</a></div>
     </div>
